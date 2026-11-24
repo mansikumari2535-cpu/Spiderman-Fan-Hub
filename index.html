@@ -1,0 +1,374 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Brand New Day | Fan Hub</title>
+
+  <meta name="description" content="Explore Brand New Day Fan Hub for superhero movie updates, news, galleries, fan theories and entertainment.">
+
+  <meta name="theme-color" content="#090909">
+
+  <meta property="og:title" content="Brand New Day Fan Hub">
+  <meta property="og:description" content="The next chapter begins. Explore the fan hub.">
+  <meta property="og:type" content="website">
+
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+
+    <a href="#home" class="brand">
+      <img src="logo.png" alt="Brand New Day Fan Hub Logo" class="brand-logo">
+    </a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Toggle navigation"
+      aria-expanded="false">
+      ☰
+    </button>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#home" class="active">⌂ Home</a>
+      <a href="#updates">▣ Movie Updates</a>
+      <a href="#gallery">▧ Gallery</a>
+      <a href="#characters">♟ Characters</a>
+      <a href="#theories">✦ Fan Theories</a>
+      <a href="#news">▤ News</a>
+      <a href="#about">ⓘ About</a>
+    </nav>
+
+    <form class="search-box" id="searchForm">
+      <input
+        type="search"
+        id="searchInput"
+        placeholder="Search..."
+        aria-label="Search website">
+      <button type="submit" aria-label="Search">⌕</button>
+    </form>
+
+  </header>
+
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+
+      <div class="hero-content">
+
+        <p class="eyebrow">THE NEXT CHAPTER BEGINS</p>
+
+        <h1>
+          BRAND <span>NEW DAY</span>
+        </h1>
+
+        <div class="hero-line"></div>
+
+        <p class="hero-description">
+          Bigger Dreams. Stronger Hero.<br>
+          A New Day for a Greater Tomorrow.
+        </p>
+
+        <a href="#updates" class="primary-btn">
+          ▶ EXPLORE UPDATES
+        </a>
+
+      </div>
+
+      <div class="hero-art" aria-label="Original superhero-inspired artwork">
+        <div class="hero-glow"></div>
+        <div class="hero-character">
+          <span>✦</span>
+        </div>
+      </div>
+
+      <div class="hero-quote">
+        <p>I DREAM BIG</p>
+        <p>FIGHT <span>HARD</span></p>
+        <p>STAY <span>STRONG</span></p>
+      </div>
+
+    </section>
+
+
+    <!-- MAIN DASHBOARD -->
+    <section class="dashboard">
+
+      <!-- LATEST NEWS -->
+      <div class="panel news-panel" id="news">
+
+        <div class="section-heading">
+          <h2>📢 LATEST NEWS</h2>
+          <a href="#updates">View All →</a>
+        </div>
+
+        <article class="featured-news">
+          <div class="news-image news-image-one"></div>
+
+          <div class="news-content">
+            <span class="tag">FEATURED</span>
+
+            <h3>Brand New Day: Latest Updates</h3>
+
+            <p>
+              Discover announcements, movie updates
+              and fan discussions.
+            </p>
+
+            <small>Fan Hub Updates</small>
+          </div>
+        </article>
+
+        <article class="news-item">
+          <span class="news-icon">✦</span>
+          <div>
+            <h3>New Concept Art and Fan Creations</h3>
+            <small>Explore Gallery</small>
+          </div>
+        </article>
+
+        <article class="news-item">
+          <span class="news-icon">▶</span>
+          <div>
+            <h3>Trailer and Behind the Scenes</h3>
+            <small>Coming Soon</small>
+          </div>
+        </article>
+
+      </div>
+
+
+      <!-- MOVIE COUNTDOWN -->
+      <div class="panel countdown-panel" id="updates">
+
+        <div class="section-heading">
+          <h2>◷ MOVIE COUNTDOWN</h2>
+        </div>
+
+        <div class="countdown-content">
+
+          <div class="countdown-timer" id="countdown">
+
+            <div>
+              <strong id="days">--</strong>
+              <span>DAYS</span>
+            </div>
+
+            <div>
+              <strong id="hours">--</strong>
+              <span>HRS</span>
+            </div>
+
+            <div>
+              <strong id="minutes">--</strong>
+              <span>MINS</span>
+            </div>
+
+            <div>
+              <strong id="seconds">--</strong>
+              <span>SECS</span>
+            </div>
+
+          </div>
+
+          <p class="countdown-caption">
+            ✦ COUNTDOWN TO THE BIG DAY ✦
+          </p>
+
+          <p class="countdown-note">
+            Official release date countdown will appear here.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- GALLERY -->
+      <div class="panel gallery-panel" id="gallery">
+
+        <div class="section-heading">
+          <h2>★ FEATURED GALLERY</h2>
+          <a href="#gallery-grid">View All →</a>
+        </div>
+
+        <div class="gallery-grid" id="gallery-grid">
+
+          <div class="gallery-main">
+            <div class="gallery-placeholder">
+              CINEMATIC ART
+            </div>
+          </div>
+
+          <div class="gallery-side">
+
+            <div class="gallery-placeholder">
+              CITY LIGHTS
+            </div>
+
+            <div class="gallery-placeholder">
+              HERO DESIGN
+            </div>
+
+            <div class="gallery-placeholder">
+              WEB ART
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- QUICK NAVIGATION -->
+    <section class="quick-links">
+
+      <a href="#trailers" class="quick-link">
+        <span>◉</span>
+        TRAILERS & CLIPS
+      </a>
+
+      <a href="#games" class="quick-link">
+        <span>🎮</span>
+        FAN GAMES
+      </a>
+
+      <a href="#wallpapers" class="quick-link">
+        <span>★</span>
+        POSTERS & WALLPAPERS
+      </a>
+
+      <a href="#characters" class="quick-link">
+        <span>♟</span>
+        CHARACTER GUIDE
+      </a>
+
+      <a href="#community" class="quick-link">
+        <span>♧</span>
+        JOIN COMMUNITY
+      </a>
+
+    </section>
+
+
+    <!-- FAN ZONE -->
+    <section class="extra-section" id="theories">
+
+      <div class="section-heading">
+        <h2>🔥 EXPLORE FAN ZONE</h2>
+      </div>
+
+      <div class="extra-grid">
+
+        <article class="extra-card" id="trailers">
+          <span>▶</span>
+          <h3>Trailers & Clips</h3>
+          <p>
+            Explore trailer news and video updates.
+          </p>
+        </article>
+
+        <article class="extra-card" id="wallpapers">
+          <span>▣</span>
+          <h3>Wallpapers</h3>
+          <p>
+            Discover original fan-made artwork.
+          </p>
+        </article>
+
+        <article class="extra-card">
+          <span>💡</span>
+          <h3>Fan Theories</h3>
+          <p>
+            Read interesting fan predictions and discussions.
+          </p>
+        </article>
+
+        <article class="extra-card" id="games">
+          <span>🎮</span>
+          <h3>Fan Games</h3>
+          <p>
+            Explore superhero-inspired fan games.
+          </p>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- COMMUNITY -->
+    <section class="community-section" id="community">
+
+      <h2>BE PART OF THE JOURNEY</h2>
+
+      <p>Follow the latest fan hub updates!</p>
+
+      <div class="social-links">
+        <a href="#" aria-label="YouTube">▶</a>
+        <a href="#" aria-label="X">𝕏</a>
+        <a href="#" aria-label="Instagram">◎</a>
+        <a href="#" aria-label="Facebook">f</a>
+      </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section class="about-section" id="about">
+
+      <h2>ABOUT THE FAN HUB</h2>
+
+      <p>
+        Brand New Day Fan Hub is an independent fan-made
+        website for superhero movie enthusiasts. Explore
+        updates, artwork, discussions and entertainment content.
+      </p>
+
+      <p class="disclaimer">
+        This is an unofficial fan project. It is not affiliated
+        with or endorsed by any film studio or official
+        franchise owner.
+      </p>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+
+    <a href="#home" class="footer-brand">
+      <img src="logo.png" alt="Brand New Day Fan Hub">
+    </a>
+
+    <p>
+      © <span id="currentYear"></span>
+      Brand New Day Fan Hub.
+    </p>
+
+    <p>Made for fans. By fans.</p>
+
+  </footer>
+
+
+  <!-- JAVASCRIPT -->
+  <script src="script.js" defer></script>
+
+</body>
+</html>
